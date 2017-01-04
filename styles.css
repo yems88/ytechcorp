@@ -1,0 +1,67 @@
+/* Yems Rosas*/
+@charset "utf-8";
+
+body {background:url(pic/bgcity.jpg) no-repeat 50% 50% fixed ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+font:100%;}
+
+.container {
+    width:100%;
+}
+.lecont {
+    text-align: center;
+    background-color: aqua;
+vertical-align: middle;
+    
+}
+
+
+
+nav{font-size:25px;
+    width:600px;
+    height:auto;
+    margin:auto;}
+
+nav li{ list-style-type: none;
+display:inline-block;
+width:150px;}
+
+nav ul{text-align:center;
+list-style-type:none;  
+padding: 0px;
+}
+
+
+section{display:flex;
+justify-content: center;
+align-items: center;}
+
+
+nav a{display:block;
+text-decoration: none;
+color:aliceblue;
+padding:5px;
+background-color:mediumslateblue}
+
+nav a:hover{
+    background-color:crimson;
+}
+
+
+@media screen and (max-width: 600px){
+    nav{
+        width:auto;
+    }
+    nav li {
+
+    width:auto;
+    display: block;
+    margin:auto auto 5px auto;
+    }
+}
+
+
+  
